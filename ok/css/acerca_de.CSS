@@ -1,0 +1,150 @@
+main{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias-sec, .polemica2-sec, .aprende-sec{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.noticias-cont, .polemica2-cont, .aprende-cont{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+main hr{
+    width: 85%;
+    background: #00070f;
+    border: none;
+    height: 8px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.img{
+    display: block;
+    height: 100%;
+    width: fit-content;
+    align-items: flex-end;
+}
+
+.logo{
+    width: 170px;
+    margin-left: 30px;
+    display: block;
+    margin-top: 15px;
+}
+.titulo-parrafo{
+    width: 60%;
+    text-align: relative;
+}
+
+.titulo-parrafo h2 {
+    font-family: arial rounded mt;
+    border-radius: 100vh;
+    padding: 3px;
+    font-size: 2.5em;
+    width: fit-content;
+    color:#00070f;
+    margin-top: 20px;
+}
+
+p {
+    font-family: Arial rounded mt;
+    color: #434c5a;
+    font-size: 1rem;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.polemica1-cont {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.polemica1-cont .titulo-parrafo {
+    width: 72%;
+}
+
+
+.polemica2-sec {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.polemica2-cont {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.polemica-interesante {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100vh;
+    padding: 3px;
+    font-size: 2.5rem;
+    width: fit-content;
+    color: #00070f;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.noticias-colegiales {
+    display: inline-block;
+}
+
+.contenedor-aprendizaje{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+.img-1{
+    width: 22em;
+    margin-right: 20px;
+    height: 7em;
+}
+
+.img-2{
+    width: 12em;
+    height: 7em;
+    margin-right: 20px;
+}
+
+.img-3{
+    width: 13em;
+    margin-right: 20px;
+    height: 7em;
+}
+
+.img-4{
+    width: 14em;
+    margin-right: 20px;
+    height: 7em;
+}
+
+.img-{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

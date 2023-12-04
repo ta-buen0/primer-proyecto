@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: #181618;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #6e266e;
+}
+
+.inicio{
+    position: relative;
+    top: 0em;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url("../src/pexels-michael-block-3225517.jpg");
+}
+
+.inicio-cont{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: row-reverse;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.registro-ingreso{
+    width: 50%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.noticias img {
+    margin-left: 120px;
+    display: flex;
+    width: 15em;
+    height: 15em;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro-ingreso h1{
+    color: #272429;
+    font-family: Arial rounded mt;
+    font-size: 2.8rem;
+    width: fit-content;
+}
+.registro-ingreso-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.registro-ingreso-btn a{
+    padding: 5px 15px 5px 15px;
+    border-radius: 100vh;
+    color: black;
+    font-size: 1.4em;
+    text-decoration: none;
+    justify-content: center;
+    transition: .2s;
+
+    display: flex;
+}
+
+.btn-r{
+    background-color: #ffffff;
+    border: 3px solid #000000;
+}
+
+.btn-r:hover{
+    color: white;
+    border: 3px solid #ffffff;
+    background-color: #260336;
+    transition: .2s;
+}
+
+.btn-i{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-i:hover{
+    color:white;
+    border: 3px solid #ffffff;
+    transition: .2s;
+    background-color: #260336;
+}
+
